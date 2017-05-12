@@ -1,1 +1,12 @@
-Training
+<script src="https://cdn.auth0.com/js/auth0/8.0.4/auth0.min.js"></script>
+<script type="text/javascript">
+  var webAuth = new auth0.WebAuth({
+    domain:       'test207.auth0.com',
+    clientID:     'B0ueCAMrnOXIk7iXYRyPSzV4sA0R1lBs'
+  });
+  
+  webAuth.authorize({
+  connection: 'google'
+  });
+  
+</script>
